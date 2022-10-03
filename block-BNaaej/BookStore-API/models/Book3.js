@@ -19,6 +19,6 @@ var bookSchema = new Schema({
   ],
   categories: [String],
   tags: [String],
-})
+});
 
 module.exports = mongoose.model('Book3', bookSchema);
